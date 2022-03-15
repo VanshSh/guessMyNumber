@@ -11,7 +11,6 @@ const checkBtn = document.querySelector('.check');
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let highscore = 0;
 let score = 20;
-console.log(secretNumber);
 
 const displayMessage = function (message, color = 'brown') {
   messages.style.color = color;
